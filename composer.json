@@ -1,0 +1,19 @@
+{
+    "name": "alfredlib/aliyunsls-for-laravel",
+    "description": "AliyunSLS for laravel",
+    "authors": [
+        {
+            "name": "Alfredlib",
+            "email": "yangjun0506@icloud.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/Lib/aliyun-log-php-sdk-master/Log_Autoload.php"
+        ],
+        "psr-4": {
+            "Alfredlib\\AliyunSls\\": "src/"
+        }
+    }
+}
